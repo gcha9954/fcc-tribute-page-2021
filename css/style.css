@@ -1,0 +1,25 @@
+body {
+  background-color: #f5f5f5;
+  font-family: "Open Sans", sans-serif;
+}
+
+#main {
+  max-width: 700px;
+  display: block;
+  margin: auto;
+}
+
+#title {
+  text-align: center;
+}
+
+#image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+#img-caption {
+  text-align: center;
+}
