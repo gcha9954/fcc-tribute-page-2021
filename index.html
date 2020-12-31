@@ -4,12 +4,96 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Static Template</title>
+    <title>Michelangelo</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <h1>
-      This is a static template, there is no bundler or bundling involved!
-    </h1>
+    <main id="main">
+      <h1 id="title">Michelangelo</h1>
+      <div id="img-div">
+        <img
+          id="image"
+          src="images/Michelangelo.jpg"
+          alt="Michelangelo as portrayed by Daniele da Volterra"
+        />
+        <p id="img-caption">Michelangelo as portrayed by Daniele da Volterra</p>
+      </div>
+      <div id="tribute-info">
+        <p>
+          Often considered the greatest artist of all time, Michelangelo was a
+          sculptor and painter from the Florentine Republic, operating from
+          around 1490 until his death in 1564.
+        </p>
+        <p>
+          His most famous works include <em>David</em>, a sculpture completed
+          between 1501 and 1504 for the Florentine Republic, and the
+          <em>Sistine Chapel ceiling</em>, painted between 1508 and 1512.
+        </p>
+        <div id="timeline">
+          <p>Timeline:</p>
+          <ul>
+            <li>
+              <b>1475</b> - Michelangelo is born in the Florentine Republic.
+            </li>
+            <li>
+              <b>1488</b> - Michelangelo is apprenticed to the master painter
+              Domenico Ghirlandaio.
+            </li>
+            <li>
+              <b>1499</b> - <em>Pietà</em> is completed, gaining widespread
+              acclaim.
+            </li>
+            <li>
+              <b>1504</b> - <em>David</em> is completed, securing Michelangelo's
+              reputation as a master sculptor.
+            </li>
+            <li>
+              <b>1508-1512</b> - Under the patronage of Pope Julius II,
+              Michelangelo paints the Sistine Chapel Ceiling.
+            </li>
+            <li>
+              <b>1520s-1530s</b> - Michelangelo completed <em>Night</em> and
+              <em>Day</em>, and <em>Dusk</em> and <em>Dawn</em> for the Medici
+              Chapel in Florence.
+            </li>
+            <li>
+              <b>1536-1541</b> - <em>The Last Judgement</em> is completed in the
+              Sistine Chapel.
+            </li>
+            <li>
+              <b>1542-1545</b> - <em>The Conversion of Saul</em> is painted in
+              the Pauline Chapel.
+            </li>
+            <li>
+              <b>1546-1550</b> - <em>The Crucifixion of St. Peter</em> is
+              painted in the Pauline Chapel.
+            </li>
+          </ul>
+        </div>
+      </div>
+      <footer>
+        <p>
+          For more information, see
+          <a
+            id="tribute-link"
+            href="https://en.wikipedia.org/wiki/Michelangelo"
+            target="_blank"
+            >Michelangelo's Wikipedia page</a
+          >
+          or read
+          <a href="https://www.goodreads.com/book/show/6808415-michelangelo"
+            ><em>Michelangelo: A Tormented Life</em></a
+          >
+          by Antonio Forcellino.
+        </p>
+      </footer>
+    </main>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
   </body>
 </html>
